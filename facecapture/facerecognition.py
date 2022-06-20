@@ -5,8 +5,8 @@ import pyautogui
 
 # setting
 LOOP_SECONDS = 0.5 # 검사 루프의 간격
-HIDE_LAYER_WHEN_NONE_PEOPLE = 30 # 몇번 루프에서 사람들이 없으면 레이어를 감출까요?
-TAKE_CAPTURE_BETWEEN_LOOP = 20 # 사람 간격으로 20번 루프 이후에 다시 캡쳐 작업
+HIDE_LAYER_WHEN_NONE_PEOPLE = 14 # 몇번 루프에서 사람들이 없으면 레이어를 감출까요?
+TAKE_CAPTURE_BETWEEN_LOOP = 40 # 사람 간격으로 20번 루프 이후에 다시 캡쳐 작업
 
 video_capture = cv2.VideoCapture(0)
 process_this_frame = True
