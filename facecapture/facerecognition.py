@@ -60,6 +60,7 @@ while True:
         if count_loop - prev_capture_loop > TAKE_CAPTURE_BETWEEN_LOOP:
             print('capture:  because count_loop : ' + str(count_loop) +
                   ', prev_capture_loop: ' + str(prev_capture_loop))
+            print('캡쳐되었습니다')
             cv2.imwrite('photos/' + datetime.now().strftime('%Y-%m-%d-%H.%M.%S') + '.jpg', frame)
             prev_capture_loop = count_loop
         else:
